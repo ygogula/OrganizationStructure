@@ -71,7 +71,7 @@ public class OrganizationStructure {
                 // Add the employee to the manager's subordinate list
                 managerSubordinates.computeIfAbsent(managerId, k -> new ArrayList<>()).add(emp);
             } else {
-                throw new InvalidCSVFormatException("Invalid CSV format at line " + lineNumber + ". Expected 3 or 4 fields, got " + data.length);
+                throw new InvalidCSVFormatException("Invalid CSV format at line " + lineNumber + ". Expected 4 or 5 fields, got " + data.length);
             }
         }
 
