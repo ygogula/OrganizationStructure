@@ -1,6 +1,6 @@
-import com.salaryanalyzer.exception.EmployeeNotFoundException;
-import com.salaryanalyzer.exception.InvalidCSVFormatException;
-import com.salaryanalyzer.service.OrganizationStructure;
+import com.organizationstructure.exception.EmployeeNotFoundException;
+import com.organizationstructure.exception.InvalidCSVFormatException;
+import com.organizationstructure.service.OrganizationStructure;
 import org.junit.Before;
 import org.junit.Test;
 

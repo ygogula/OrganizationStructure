@@ -1,4 +1,4 @@
-package com.salaryanalyzer.entity;
+package com.organizationstructure.entity;
 
 
 public class Employee {

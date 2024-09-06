@@ -1,4 +1,4 @@
-package com.salaryanalyzer.exception;
+package com.organizationstructure.exception;
 
 public class InvalidCSVFormatException extends Exception {
     public InvalidCSVFormatException(String message) {

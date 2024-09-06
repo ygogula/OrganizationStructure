@@ -1,12 +1,12 @@
-package com.salaryanalyzer;
+package com.organizationstructure;
 
-import com.salaryanalyzer.exception.EmployeeNotFoundException;
-import com.salaryanalyzer.exception.InvalidCSVFormatException;
-import com.salaryanalyzer.service.OrganizationStructure;
+import com.organizationstructure.exception.EmployeeNotFoundException;
+import com.organizationstructure.exception.InvalidCSVFormatException;
+import com.organizationstructure.service.OrganizationStructure;
 
 import java.io.IOException;
 
-public class Main {
+public class EmployeeStructureApplication {
     public static void main(String[] args) {
         // Make sure a file path is passed in arguments
         if (args.length != 1) {

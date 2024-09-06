@@ -1,4 +1,4 @@
-package com.salaryanalyzer.exception;
+package com.organizationstructure.exception;
 
 public class EmployeeNotFoundException extends Exception {
     public EmployeeNotFoundException(String message) {

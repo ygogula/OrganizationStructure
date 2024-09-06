@@ -1,8 +1,8 @@
-package com.salaryanalyzer.service;
+package com.organizationstructure.service;
 
-import com.salaryanalyzer.entity.Employee;
-import com.salaryanalyzer.exception.EmployeeNotFoundException;
-import com.salaryanalyzer.exception.InvalidCSVFormatException;
+import com.organizationstructure.entity.Employee;
+import com.organizationstructure.exception.EmployeeNotFoundException;
+import com.organizationstructure.exception.InvalidCSVFormatException;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
