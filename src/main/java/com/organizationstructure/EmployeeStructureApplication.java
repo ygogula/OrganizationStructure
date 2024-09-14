@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class EmployeeStructureApplication {
     public static void main(String[] args) {
-        // Make sure a file path is passed in arguments
+
         if (args.length != 1) {
             System.err.println("Usage: java salary analyzer.jar <file-path>");
             System.exit(1);
